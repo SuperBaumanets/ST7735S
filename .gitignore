@@ -53,3 +53,12 @@ dkms.conf
 
 # debug information files
 *.dwo
+
+# Deployment ESP32C3
+deployment/esp32c3/build
+deployment/esp32c3/sdkconfig
+deployment/esp32c3/.cache
+
+# Deployment STM32F4
+deployment/stm32f4/build
+deployment/stm32f4/.vscode

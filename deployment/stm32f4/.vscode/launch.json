@@ -1,0 +1,18 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "openocd(debug)",
+			"cwd": "${workspaceRoot}",
+			"executable": "./build/ST7735S.elf",
+			"type": "cortex-debug",
+			"request": "launch",
+			"servertype": "openocd",
+			"svdFile": "/home/slava/support/embedded/stm32/STM32F4_svd_V2.0/STM32F411.svd",
+			"configFiles": [
+				"board/stm32f4discovery.cfg"
+			],
+			"preLaunchTask": "Build"
+		}
+	]
+}
